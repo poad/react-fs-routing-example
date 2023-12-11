@@ -26,27 +26,27 @@
   "devDependencies": {
     "@mdx-js/react": "^3.0.0",
     "@types/node": "^20.10.4",
-    "@types/react": "^18.2.42",
+    "@types/react": "^18.2.43",
     "@typescript-eslint/eslint-plugin": "^6.13.2",
     "@typescript-eslint/parser": "^6.13.2",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.55.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-config-standard-with-typescript": "^40.0.0",
+    "eslint-config-standard-with-typescript": "^42.0.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.29.0",
-    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-n": "^16.4.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^3.1.0",
+    "prettier": "^3.1.1",
     "rimraf": "^5.0.5",
     "serve": "^14.2.1",
     "typescript": "^5.3.3",
     "vite": "^5.0.7",
     "vite-pages-theme-doc": "^4.1.7",
-    "vite-plugin-react-pages": "^4.1.5"
+    "vite-plugin-react-pages": "^4.1.6"
   }
 }
