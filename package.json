@@ -25,10 +25,10 @@
   },
   "devDependencies": {
     "@mdx-js/react": "^3.0.0",
-    "@types/node": "^20.10.6",
-    "@types/react": "^18.2.46",
-    "@typescript-eslint/eslint-plugin": "^6.17.0",
-    "@typescript-eslint/parser": "^6.17.0",
+    "@types/node": "^20.10.7",
+    "@types/react": "^18.2.47",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.56.0",
     "eslint-config-import": "^0.13.0",
@@ -37,7 +37,7 @@
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "^16.6.1",
+    "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -45,7 +45,7 @@
     "rimraf": "^5.0.5",
     "serve": "^14.2.1",
     "typescript": "^5.3.3",
-    "vite": "^5.0.10",
+    "vite": "^5.0.11",
     "vite-pages-theme-doc": "^4.1.7",
     "vite-plugin-react-pages": "^4.1.6"
   }
