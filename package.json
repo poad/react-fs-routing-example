@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@mdx-js/react": "^3.0.0",
-    "@types/node": "^20.11.16",
+    "@types/node": "^20.11.17",
     "@types/react": "^18.2.55",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
@@ -45,7 +45,7 @@
     "rimraf": "^5.0.5",
     "serve": "^14.2.1",
     "typescript": "^5.3.3",
-    "vite": "^5.0.12",
+    "vite": "^5.1.0",
     "vite-pages-theme-doc": "^5.0.0",
     "vite-plugin-react-pages": "^5.0.0"
   }
