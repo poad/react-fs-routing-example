@@ -27,8 +27,8 @@
     "@mdx-js/react": "^3.0.1",
     "@types/node": "^20.11.25",
     "@types/react": "^18.2.64",
-    "@typescript-eslint/eslint-plugin": "^7.1.1",
-    "@typescript-eslint/parser": "^7.1.1",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.57.0",
     "eslint-config-import": "^0.13.0",
@@ -45,7 +45,7 @@
     "rimraf": "^5.0.5",
     "serve": "^14.2.1",
     "typescript": "^5.4.2",
-    "vite": "^5.1.5",
+    "vite": "^5.1.6",
     "vite-pages-theme-doc": "^5.0.0",
     "vite-plugin-react-pages": "^5.0.0"
   }
