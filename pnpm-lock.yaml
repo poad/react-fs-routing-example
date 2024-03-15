@@ -18,13 +18,13 @@ dependencies:
 devDependencies:
   '@mdx-js/react':
     specifier: ^3.0.1
-    version: 3.0.1(@types/react@18.2.65)(react@18.2.0)
+    version: 3.0.1(@types/react@18.2.66)(react@18.2.0)
   '@types/node':
     specifier: ^20.11.27
     version: 20.11.27
   '@types/react':
-    specifier: ^18.2.65
-    version: 18.2.65
+    specifier: ^18.2.66
+    version: 18.2.66
   '@typescript-eslint/eslint-plugin':
     specifier: ^7.2.0
     version: 7.2.0(@typescript-eslint/parser@7.2.0)(eslint@8.57.0)(typescript@5.4.2)
@@ -87,7 +87,7 @@ devDependencies:
     version: 5.0.0
   vite-plugin-react-pages:
     specifier: ^5.0.0
-    version: 5.0.0(@types/react@18.2.65)(react@18.2.0)(rollup@4.13.0)(vite@5.1.6)
+    version: 5.0.0(@types/react@18.2.66)(react@18.2.0)(rollup@4.13.0)(vite@5.1.6)
 
 packages:
 
@@ -704,14 +704,14 @@ packages:
       - supports-color
     dev: true
 
-  /@mdx-js/react@3.0.1(@types/react@18.2.65)(react@18.2.0):
+  /@mdx-js/react@3.0.1(@types/react@18.2.66)(react@18.2.0):
     resolution: {integrity: sha512-9ZrPIU4MGf6et1m1ov3zKf+q9+deetI51zprKB1D/z3NOb+rUxxtEl3mCjW5wTGh6VhRdwPueh1oRzi6ezkA8A==}
     peerDependencies:
       '@types/react': '>=16'
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.11
-      '@types/react': 18.2.65
+      '@types/react': 18.2.66
       react: 18.2.0
     dev: true
 
@@ -979,8 +979,8 @@ packages:
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
     dev: true
 
-  /@types/react@18.2.65:
-    resolution: {integrity: sha512-98TsY0aW4jqx/3RqsUXwMDZSWR1Z4CUlJNue8ueS2/wcxZOsz4xmW1X8ieaWVRHcmmQM3R8xVA4XWB3dJnWwDQ==}
+  /@types/react@18.2.66:
+    resolution: {integrity: sha512-OYTmMI4UigXeFMF/j4uv0lBBEbongSgptPrHBxqME44h9+yNov+oL6Z3ocJKo0WyXR84sQUNeyIp9MRfckvZpg==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -1460,8 +1460,8 @@ packages:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
     dev: true
 
-  /binary-extensions@2.2.0:
-    resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
+  /binary-extensions@2.3.0:
+    resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
     engines: {node: '>=8'}
     dev: true
 
@@ -1505,7 +1505,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001597
-      electron-to-chromium: 1.4.704
+      electron-to-chromium: 1.4.707
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: true
@@ -1852,8 +1852,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.704:
-    resolution: {integrity: sha512-OK01+86Qvby1V6cTiowVbhp25aX4DLZnwar+NocAOXdzKAByd+jq5156bmo4kHwevWMknznW18Y/Svfk2dU91A==}
+  /electron-to-chromium@1.4.707:
+    resolution: {integrity: sha512-qRq74Mo7ChePOU6GHdfAJ0NREXU8vQTlVlfWz3wNygFay6xrd/fY2J7oGHwrhFeU30OVctGLdTh/FcnokTWpng==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -2865,7 +2865,7 @@ packages:
       entities: 4.5.0
       param-case: 3.0.4
       relateurl: 0.2.7
-      terser: 5.29.1
+      terser: 5.29.2
     dev: true
 
   /human-signals@2.1.0:
@@ -2959,7 +2959,7 @@ packages:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
     engines: {node: '>=8'}
     dependencies:
-      binary-extensions: 2.2.0
+      binary-extensions: 2.3.0
     dev: true
 
   /is-boolean-object@1.1.2:
@@ -3193,8 +3193,8 @@ packages:
       detect-newline: 3.1.0
     dev: true
 
-  /jotai@2.7.0(@types/react@18.2.65)(react@18.2.0):
-    resolution: {integrity: sha512-4qsyFKu4MprI39rj2uoItyhu24NoCHzkOV7z70PQr65SpzV6CSyhQvVIfbNlNqOIOspNMdf5OK+kTXLvqe63Jw==}
+  /jotai@2.7.1(@types/react@18.2.66)(react@18.2.0):
+    resolution: {integrity: sha512-bsaTPn02nFgWNP6cBtg/htZhCu4s0wxqoklRHePp6l/vlsypR9eLn7diRliwXYWMXDpPvW/LLA2afI8vwgFFaw==}
     engines: {node: '>=12.20.0'}
     peerDependencies:
       '@types/react': '>=17.0.0'
@@ -3205,7 +3205,7 @@ packages:
       react:
         optional: true
     dependencies:
-      '@types/react': 18.2.65
+      '@types/react': 18.2.66
       react: 18.2.0
     dev: true
 
@@ -4896,8 +4896,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /terser@5.29.1:
-    resolution: {integrity: sha512-lZQ/fyaIGxsbGxApKmoPTODIzELy3++mXhS5hOqaAWZjQtpq/hFHAc+rm29NND1rYRxRWKcjuARNwULNXa5RtQ==}
+  /terser@5.29.2:
+    resolution: {integrity: sha512-ZiGkhUBIM+7LwkNjXYJq8svgkd+QK3UUr0wJqY4MieaezBSAIPgbSPZyIx0idM6XWK5CMzSWa8MJIzmRcB8Caw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -5155,7 +5155,7 @@ packages:
     resolution: {integrity: sha512-4712oAokHUafx+ne+Ea9Y26fBSay5jUwoZDmYOWCDzqBJBPXXdNnCpVgB637xoJP4Vsv+45WNE834SEJLNL6HA==}
     dev: true
 
-  /vite-plugin-react-pages@5.0.0(@types/react@18.2.65)(react@18.2.0)(rollup@4.13.0)(vite@5.1.6):
+  /vite-plugin-react-pages@5.0.0(@types/react@18.2.66)(react@18.2.0)(rollup@4.13.0)(vite@5.1.6):
     resolution: {integrity: sha512-nhEo9LciS9Kjg6XhzpsWeYbhBRk9qEIMWX8mXNMrTrnA0d4eF5eWnk8vA4owZhiLiEsYvaG7XtM8CkZa1d/a5Q==}
     hasBin: true
     peerDependencies:
@@ -5170,7 +5170,7 @@ packages:
       gray-matter: 4.0.3
       html-minifier-terser: 7.2.0
       jest-docblock: 29.7.0
-      jotai: 2.7.0(@types/react@18.2.65)(react@18.2.0)
+      jotai: 2.7.1(@types/react@18.2.66)(react@18.2.0)
       mdast-util-to-string: 4.0.0
       mini-debounce: 1.0.8
       minimist: 1.2.8
