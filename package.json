@@ -44,8 +44,8 @@
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
     "serve": "^14.2.1",
-    "typescript": "^5.4.2",
-    "vite": "^5.1.6",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.2",
     "vite-pages-theme-doc": "^5.0.0",
     "vite-plugin-react-pages": "^5.0.0"
   }
