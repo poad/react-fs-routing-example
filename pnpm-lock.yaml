@@ -55,9 +55,6 @@ devDependencies:
   eslint-plugin-import:
     specifier: ^2.29.1
     version: 2.29.1(@typescript-eslint/parser@7.6.0)(eslint-import-resolver-typescript@3.6.1)(eslint@9.0.0)
-  eslint-plugin-n:
-    specifier: ^16.6.2
-    version: 16.6.2(eslint@9.0.0)
   eslint-plugin-promise:
     specifier: ^6.1.1
     version: 6.1.1(eslint@9.0.0)
