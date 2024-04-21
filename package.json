@@ -30,7 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^7.7.0",
     "@typescript-eslint/parser": "^7.7.0",
     "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^9.0.0",
+    "eslint": "^9.1.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
@@ -43,7 +43,7 @@
     "rimraf": "^5.0.5",
     "serve": "^14.2.1",
     "typescript": "^5.4.5",
-    "vite": "^5.2.9",
+    "vite": "^5.2.10",
     "vite-pages-theme-doc": "^5.0.0",
     "vite-plugin-react-pages": "^5.0.0"
   }
