@@ -58,8 +58,8 @@ importers:
         specifier: ^7.1.0
         version: 7.1.0(eslint@9.10.0)
       eslint-plugin-react:
-        specifier: ^7.36.0
-        version: 7.36.0(eslint@9.10.0)
+        specifier: ^7.36.1
+        version: 7.36.1(eslint@9.10.0)
       eslint-plugin-react-hooks:
         specifier: ^4.6.2
         version: 4.6.2(eslint@9.10.0)
@@ -987,8 +987,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.20:
-    resolution: {integrity: sha512-74mdl6Fs1HHzK9SUX4CKFxAtAe3nUns48y79TskHNAG6fGOlLfyKA4j855x+0b5u8rWJIrlaG9tcTPstMlwjIw==}
+  electron-to-chromium@1.5.22:
+    resolution: {integrity: sha512-tKYm5YHPU1djz0O+CGJ+oJIvimtsCcwR2Z9w7Skh08lUdyzXY5djods3q+z2JkWdb7tCcmM//eVavSRAiaPRNg==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -1134,8 +1134,8 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
 
-  eslint-plugin-react@7.36.0:
-    resolution: {integrity: sha512-c+RvVxBH0JE2kHt/8p043nPPhIohSnyQOZApIzGJqM2tXnjEzcZzyKIAg72gymLtuwuKfgGxW2H2aqTJqRgTfQ==}
+  eslint-plugin-react@7.36.1:
+    resolution: {integrity: sha512-/qwbqNXZoq+VP30s1d4Nc1C5GTxjJQjk4Jzs4Wq2qzxFM7dSmuG2UkIjg2USMLh3A/aVcUNrK7v0J5U1XEGGwA==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
@@ -3337,7 +3337,7 @@ snapshots:
   browserslist@4.23.3:
     dependencies:
       caniuse-lite: 1.0.30001660
-      electron-to-chromium: 1.5.20
+      electron-to-chromium: 1.5.22
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
 
@@ -3536,7 +3536,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.20: {}
+  electron-to-chromium@1.5.22: {}
 
   emoji-regex@8.0.0: {}
 
@@ -3765,7 +3765,7 @@ snapshots:
     dependencies:
       eslint: 9.10.0
 
-  eslint-plugin-react@7.36.0(eslint@9.10.0):
+  eslint-plugin-react@7.36.1(eslint@9.10.0):
     dependencies:
       array-includes: 3.1.8
       array.prototype.findlast: 1.2.5
