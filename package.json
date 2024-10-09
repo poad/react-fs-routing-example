@@ -40,7 +40,7 @@
     "prettier": "^3.3.3",
     "rimraf": "^6.0.1",
     "serve": "^14.2.3",
-    "typescript": "^5.6.2",
+    "typescript": "^5.6.3",
     "typescript-eslint": "^8.8.1",
     "vite": "^5.4.8",
     "vite-pages-theme-doc": "^5.0.0",
