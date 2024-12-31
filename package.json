@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-		"lint": "eslint './pages/**/*{.ts,.js,.tsx,.jsx}'",
-		"lint-fix": "eslint --fix './pages/**/*{.ts,.js,.tsx,.jsx}'",
+    "lint": "eslint './pages/**/*{.ts,.js,.tsx,.jsx}'",
+    "lint-fix": "eslint --fix './pages/**/*{.ts,.js,.tsx,.jsx}'",
     "dev": "vite serve",
     "build": "rimraf dist && vite build --outDir dist",
     "serve": "serve -s dist",
