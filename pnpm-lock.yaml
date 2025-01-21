@@ -60,7 +60,7 @@ importers:
         version: 19.0.7
       '@vitejs/plugin-react':
         specifier: ^4.3.4
-        version: 4.3.4(vite@6.0.10(@types/node@22.10.7)(terser@5.37.0))
+        version: 4.3.4(vite@6.0.11(@types/node@22.10.7)(terser@5.37.0))
       eslint:
         specifier: ^9.18.0
         version: 9.18.0
@@ -101,14 +101,14 @@ importers:
         specifier: ^8.21.0
         version: 8.21.0(eslint@9.18.0)(typescript@5.7.3)
       vite:
-        specifier: ^6.0.10
-        version: 6.0.10(@types/node@22.10.7)(terser@5.37.0)
+        specifier: ^6.0.11
+        version: 6.0.11(@types/node@22.10.7)(terser@5.37.0)
       vite-pages-theme-doc:
         specifier: ^5.0.0
         version: 5.0.0
       vite-plugin-react-pages:
         specifier: ^5.0.0
-        version: 5.0.0(@types/react@19.0.7)(acorn@8.14.0)(react@19.0.0)(rollup@4.31.0)(vite@6.0.10(@types/node@22.10.7)(terser@5.37.0))
+        version: 5.0.0(@types/react@19.0.7)(acorn@8.14.0)(react@19.0.0)(rollup@4.31.0)(vite@6.0.11(@types/node@22.10.7)(terser@5.37.0))
 
 packages:
 
@@ -1383,8 +1383,8 @@ packages:
     resolution: {integrity: sha512-w9UMqWwJxHNOvoNzSJ2oPF5wvYcvP7jUvYzhp67yEhTi17ZDBBC1z9pTdGuzjD+EFIqLSYRweZjqfiPzQ06Ebg==}
     engines: {node: '>= 0.4'}
 
-  get-tsconfig@4.9.0:
-    resolution: {integrity: sha512-52n24W52sIueosRe0XZ8Ex5Yle+WbhfCKnV/gWXpbVR8FXNTfqdKEKUSypKso66VRHTvvcQxL44UTZbJRlCTnw==}
+  get-tsconfig@4.10.0:
+    resolution: {integrity: sha512-kGzZ3LWWQcGIAmg6iWvXn0ei6WDtV26wzHRMwDSzmAbcXrTEXxHy6IehI6/4eT6VRKyMP1eF1VqwrVUmE/LR7A==}
 
   github-slugger@2.0.0:
     resolution: {integrity: sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw==}
@@ -2628,8 +2628,8 @@ packages:
     peerDependencies:
       vite: ^5.0.0
 
-  vite@6.0.10:
-    resolution: {integrity: sha512-MEszunEcMo6pFsfXN1GhCFQqnE25tWRH0MA4f0Q7uanACi4y1Us+ZGpTMnITwCTnYzB2b9cpmnelTlxgTBmaBA==}
+  vite@6.0.11:
+    resolution: {integrity: sha512-4VL9mQPKoHy4+FE0NnRE/kbY51TOfaknxAjt3fJbGJxhIpBZiqVzlZDEesWWsuREXHwNdAoOFZ9MkPEVXczHwg==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -3338,14 +3338,14 @@ snapshots:
 
   '@ungap/structured-clone@1.2.1': {}
 
-  '@vitejs/plugin-react@4.3.4(vite@6.0.10(@types/node@22.10.7)(terser@5.37.0))':
+  '@vitejs/plugin-react@4.3.4(vite@6.0.11(@types/node@22.10.7)(terser@5.37.0))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 6.0.10(@types/node@22.10.7)(terser@5.37.0)
+      vite: 6.0.11(@types/node@22.10.7)(terser@5.37.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3889,7 +3889,7 @@ snapshots:
       enhanced-resolve: 5.18.0
       eslint: 9.18.0
       fast-glob: 3.3.3
-      get-tsconfig: 4.9.0
+      get-tsconfig: 4.10.0
       is-bun-module: 1.3.0
       is-glob: 4.0.3
       stable-hash: 0.0.4
@@ -4209,7 +4209,7 @@ snapshots:
       es-errors: 1.3.0
       get-intrinsic: 1.2.7
 
-  get-tsconfig@4.9.0:
+  get-tsconfig@4.10.0:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
@@ -5899,7 +5899,7 @@ snapshots:
 
   vite-pages-theme-doc@5.0.0: {}
 
-  vite-plugin-react-pages@5.0.0(@types/react@19.0.7)(acorn@8.14.0)(react@19.0.0)(rollup@4.31.0)(vite@6.0.10(@types/node@22.10.7)(terser@5.37.0)):
+  vite-plugin-react-pages@5.0.0(@types/react@19.0.7)(acorn@8.14.0)(react@19.0.0)(rollup@4.31.0)(vite@6.0.11(@types/node@22.10.7)(terser@5.37.0)):
     dependencies:
       '@mdx-js/rollup': 3.1.0(acorn@8.14.0)(rollup@4.31.0)
       chalk: 4.1.2
@@ -5925,7 +5925,7 @@ snapshots:
       ts-morph: 21.0.1
       typescript: 5.7.3
       unist-util-visit: 5.0.0
-      vite: 6.0.10(@types/node@22.10.7)(terser@5.37.0)
+      vite: 6.0.11(@types/node@22.10.7)(terser@5.37.0)
     transitivePeerDependencies:
       - '@types/react'
       - acorn
@@ -5933,7 +5933,7 @@ snapshots:
       - rollup
       - supports-color
 
-  vite@6.0.10(@types/node@22.10.7)(terser@5.37.0):
+  vite@6.0.11(@types/node@22.10.7)(terser@5.37.0):
     dependencies:
       esbuild: 0.24.0
       postcss: 8.5.1
