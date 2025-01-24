@@ -33,7 +33,7 @@ importers:
         version: 9.18.0
       '@mdx-js/react':
         specifier: ^3.1.0
-        version: 3.1.0(@types/react@19.0.7)(react@19.0.0)
+        version: 3.1.0(@types/react@19.0.8)(react@19.0.0)
       '@next/eslint-plugin-next':
         specifier: ^15.1.6
         version: 15.1.6
@@ -53,14 +53,14 @@ importers:
         specifier: ^2.13.0
         version: 2.13.0(eslint@9.18.0)(typescript@5.7.3)
       '@types/node':
-        specifier: ^22.10.8
-        version: 22.10.8
+        specifier: ^22.10.10
+        version: 22.10.10
       '@types/react':
-        specifier: ^19.0.7
-        version: 19.0.7
+        specifier: ^19.0.8
+        version: 19.0.8
       '@vitejs/plugin-react':
         specifier: ^4.3.4
-        version: 4.3.4(vite@6.0.11(@types/node@22.10.8)(terser@5.37.0))
+        version: 4.3.4(vite@6.0.11(@types/node@22.10.10)(terser@5.37.0))
       eslint:
         specifier: ^9.18.0
         version: 9.18.0
@@ -102,13 +102,13 @@ importers:
         version: 8.21.0(eslint@9.18.0)(typescript@5.7.3)
       vite:
         specifier: ^6.0.11
-        version: 6.0.11(@types/node@22.10.8)(terser@5.37.0)
+        version: 6.0.11(@types/node@22.10.10)(terser@5.37.0)
       vite-pages-theme-doc:
         specifier: ^5.0.0
         version: 5.0.0
       vite-plugin-react-pages:
         specifier: ^5.0.0
-        version: 5.0.0(@types/react@19.0.7)(acorn@8.14.0)(react@19.0.0)(rollup@4.31.0)(vite@6.0.11(@types/node@22.10.8)(terser@5.37.0))
+        version: 5.0.0(@types/react@19.0.8)(acorn@8.14.0)(react@19.0.0)(rollup@4.31.0)(vite@6.0.11(@types/node@22.10.10)(terser@5.37.0))
 
 packages:
 
@@ -657,11 +657,11 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@22.10.8':
-    resolution: {integrity: sha512-rk+QvAEGsbX/ZPiiyel6hJHNUS9cnSbPWVaZLvE+Er3tLqQFzWMz9JOfWW7XUmKvRPfxJfbl3qYWve+RGXncFw==}
+  '@types/node@22.10.10':
+    resolution: {integrity: sha512-X47y/mPNzxviAGY5TcYPtYL8JsY3kAq2n8fMmKoRCxq/c4v4pyGNCzM2R6+M5/umG4ZfHuT+sgqDYqWc9rJ6ww==}
 
-  '@types/react@19.0.7':
-    resolution: {integrity: sha512-MoFsEJKkAtZCrC1r6CM8U22GzhG7u2Wir8ons/aCKH6MBdD1ibV24zOSSkdZVUKqN5i396zG5VKLYZ3yaUZdLA==}
+  '@types/react@19.0.8':
+    resolution: {integrity: sha512-9P/o1IGdfmQxrujGbIMDyYaaCykhLKc0NGCtYcECNUr9UAaDe4gwvV9bR6tvd5Br1SG0j+PBpbKr2UYY8CwqSw==}
 
   '@types/unist@2.0.11':
     resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
@@ -716,8 +716,8 @@ packages:
     resolution: {integrity: sha512-BkLMNpdV6prozk8LlyK/SOoWLmUFi+ZD+pcqti9ILCbVvHGk1ui1g4jJOc2WDLaeExz2qWwojxlPce5PljcT3w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@ungap/structured-clone@1.2.1':
-    resolution: {integrity: sha512-fEzPV3hSkSMltkw152tJKNARhOupqbH96MZWyRjNaYZOMIzbrTeQDG+MTc6Mr2pgzFQzFxAfmhGDNP5QK++2ZA==}
+  '@ungap/structured-clone@1.3.0':
+    resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
 
   '@vitejs/plugin-react@4.3.4':
     resolution: {integrity: sha512-SCCPBJtYLdE8PX/7ZQAs1QAZ8Jqwih+0VBLum1EGqmCCQal+MIUqLCzj3ZUy8ufbC0cAM4LRlSTm7IQJwWT4ug==}
@@ -1064,8 +1064,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.85:
-    resolution: {integrity: sha512-UgTI7ZHxtSjOUwV0vZLpqT604U1Z8L3bq8mAtAKtuRPlMZ/6dLFMYgYnLdXSi/urbVTP2ykDb9EDDUrdIzw4Qg==}
+  electron-to-chromium@1.5.87:
+    resolution: {integrity: sha512-mPFwmEWmRivw2F8x3w3l2m6htAUN97Gy0kwpO++2m9iT1Gt8RCFVUfv9U/sIbHJ6rY4P6/ooqFL/eL7ock+pPg==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3049,10 +3049,10 @@ snapshots:
       - acorn
       - supports-color
 
-  '@mdx-js/react@3.1.0(@types/react@19.0.7)(react@19.0.0)':
+  '@mdx-js/react@3.1.0(@types/react@19.0.8)(react@19.0.0)':
     dependencies:
       '@types/mdx': 2.0.13
-      '@types/react': 19.0.7
+      '@types/react': 19.0.8
       react: 19.0.0
 
   '@mdx-js/rollup@3.1.0(acorn@8.14.0)(rollup@4.31.0)':
@@ -3251,11 +3251,11 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@22.10.8':
+  '@types/node@22.10.10':
     dependencies:
       undici-types: 6.20.0
 
-  '@types/react@19.0.7':
+  '@types/react@19.0.8':
     dependencies:
       csstype: 3.1.3
 
@@ -3340,16 +3340,16 @@ snapshots:
       '@typescript-eslint/types': 8.21.0
       eslint-visitor-keys: 4.2.0
 
-  '@ungap/structured-clone@1.2.1': {}
+  '@ungap/structured-clone@1.3.0': {}
 
-  '@vitejs/plugin-react@4.3.4(vite@6.0.11(@types/node@22.10.8)(terser@5.37.0))':
+  '@vitejs/plugin-react@4.3.4(vite@6.0.11(@types/node@22.10.10)(terser@5.37.0))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 6.0.11(@types/node@22.10.8)(terser@5.37.0)
+      vite: 6.0.11(@types/node@22.10.10)(terser@5.37.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3514,7 +3514,7 @@ snapshots:
   browserslist@4.24.4:
     dependencies:
       caniuse-lite: 1.0.30001695
-      electron-to-chromium: 1.5.85
+      electron-to-chromium: 1.5.87
       node-releases: 2.0.19
       update-browserslist-db: 1.1.2(browserslist@4.24.4)
 
@@ -3718,7 +3718,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.85: {}
+  electron-to-chromium@1.5.87: {}
 
   emoji-regex@8.0.0: {}
 
@@ -4527,9 +4527,9 @@ snapshots:
     dependencies:
       detect-newline: 3.1.0
 
-  jotai@2.11.1(@types/react@19.0.7)(react@19.0.0):
+  jotai@2.11.1(@types/react@19.0.8)(react@19.0.0):
     optionalDependencies:
-      '@types/react': 19.0.7
+      '@types/react': 19.0.8
       react: 19.0.0
 
   js-tokens@4.0.0: {}
@@ -4763,7 +4763,7 @@ snapshots:
     dependencies:
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
-      '@ungap/structured-clone': 1.2.1
+      '@ungap/structured-clone': 1.3.0
       devlop: 1.1.0
       micromark-util-sanitize-uri: 2.0.1
       trim-lines: 3.0.1
@@ -5906,7 +5906,7 @@ snapshots:
 
   vite-pages-theme-doc@5.0.0: {}
 
-  vite-plugin-react-pages@5.0.0(@types/react@19.0.7)(acorn@8.14.0)(react@19.0.0)(rollup@4.31.0)(vite@6.0.11(@types/node@22.10.8)(terser@5.37.0)):
+  vite-plugin-react-pages@5.0.0(@types/react@19.0.8)(acorn@8.14.0)(react@19.0.0)(rollup@4.31.0)(vite@6.0.11(@types/node@22.10.10)(terser@5.37.0)):
     dependencies:
       '@mdx-js/rollup': 3.1.0(acorn@8.14.0)(rollup@4.31.0)
       chalk: 4.1.2
@@ -5917,7 +5917,7 @@ snapshots:
       gray-matter: 4.0.3
       html-minifier-terser: 7.2.0
       jest-docblock: 29.7.0
-      jotai: 2.11.1(@types/react@19.0.7)(react@19.0.0)
+      jotai: 2.11.1(@types/react@19.0.8)(react@19.0.0)
       mdast-util-to-string: 4.0.0
       mini-debounce: 1.0.8
       minimist: 1.2.8
@@ -5932,7 +5932,7 @@ snapshots:
       ts-morph: 21.0.1
       typescript: 5.7.3
       unist-util-visit: 5.0.0
-      vite: 6.0.11(@types/node@22.10.8)(terser@5.37.0)
+      vite: 6.0.11(@types/node@22.10.10)(terser@5.37.0)
     transitivePeerDependencies:
       - '@types/react'
       - acorn
@@ -5940,13 +5940,13 @@ snapshots:
       - rollup
       - supports-color
 
-  vite@6.0.11(@types/node@22.10.8)(terser@5.37.0):
+  vite@6.0.11(@types/node@22.10.10)(terser@5.37.0):
     dependencies:
       esbuild: 0.24.0
       postcss: 8.5.1
       rollup: 4.31.0
     optionalDependencies:
-      '@types/node': 22.10.8
+      '@types/node': 22.10.10
       fsevents: 2.3.3
       terser: 5.37.0
 
