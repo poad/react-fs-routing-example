@@ -27,7 +27,7 @@ jobs:
       name: Install pnpm
       with:
         run_install: |
-          - recursive: false
+          - recursive: true
             args: [--no-frozen-lockfile]
 
     - uses: oven-sh/setup-bun@v2
@@ -36,4 +36,4 @@ jobs:
       run: bun run --bun lint
 
     - name: build
-      run: bun run --bun build
+      run: pnpm build
