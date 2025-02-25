@@ -86,8 +86,8 @@ importers:
         specifier: ^5.1.0
         version: 5.1.0(eslint@9.21.0)
       pnpm:
-        specifier: ^10.4.1
-        version: 10.4.1
+        specifier: ^10.5.0
+        version: 10.5.0
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -1475,8 +1475,8 @@ packages:
   hast-util-to-estree@3.1.2:
     resolution: {integrity: sha512-94SDoKOfop5gP8RHyw4vV1aj+oChuD42g08BONGAaWFbbO6iaWUqxk7SWfGybgcVzhK16KifZr3zD2dqQgx3jQ==}
 
-  hast-util-to-jsx-runtime@2.3.4:
-    resolution: {integrity: sha512-2GSifZSlBD35z6/+sp+btB333wHFPck/rrlKZMc9IOUJk6anHuQuqC/oNI80Pj717wo8JCPdXjjasVqQu3UH8Q==}
+  hast-util-to-jsx-runtime@2.3.5:
+    resolution: {integrity: sha512-gHD+HoFxOMmmXLuq9f2dZDMQHVcplCVpMfBNRpJsF03yyLZvJGzsFORe8orVuYDX9k2w0VH0uF8oryFd1whqKQ==}
 
   hast-util-to-string@3.0.1:
     resolution: {integrity: sha512-XelQVTDWvqcl3axRfI0xSeoVKzyIFPwsAGSLIsKdJKQMXDYJS4WYrBNF/8J7RdhIcFI2BOHgAifggsvsxp/3+A==}
@@ -2141,8 +2141,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pnpm@10.4.1:
-    resolution: {integrity: sha512-x1O2w616+hOvOI+m2AgDWgCOMOqZk/WMZmPivF/yFnmqg02wlJhxKapNSIuG31f3tjSYGy+CfNysxpjMDPuIrw==}
+  pnpm@10.5.0:
+    resolution: {integrity: sha512-ERBqWRbHQG/kuMuOMGeXS4co9HMIpPWsXoUDBK+m9X4oR9eVDf54h32NNr+0AdOBxCFds6TDVH/6Y8FDM6b6UQ==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -3044,7 +3044,7 @@ snapshots:
       estree-util-is-identifier-name: 3.0.0
       estree-util-scope: 1.0.0
       estree-walker: 3.0.3
-      hast-util-to-jsx-runtime: 2.3.4
+      hast-util-to-jsx-runtime: 2.3.5
       markdown-extensions: 2.0.0
       recma-build-jsx: 1.0.0
       recma-jsx: 1.0.0(acorn@8.14.0)
@@ -4326,7 +4326,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hast-util-to-jsx-runtime@2.3.4:
+  hast-util-to-jsx-runtime@2.3.5:
     dependencies:
       '@types/estree': 1.0.6
       '@types/hast': 3.0.4
@@ -5266,7 +5266,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pnpm@10.4.1: {}
+  pnpm@10.5.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
