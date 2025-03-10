@@ -53,14 +53,14 @@ importers:
         specifier: ^4.2.0
         version: 4.2.0(eslint@9.22.0)(typescript@5.8.2)
       '@types/node':
-        specifier: ^22.13.9
-        version: 22.13.9
+        specifier: ^22.13.10
+        version: 22.13.10
       '@types/react':
         specifier: ^19.0.10
         version: 19.0.10
       '@vitejs/plugin-react':
         specifier: ^4.3.4
-        version: 4.3.4(vite@6.2.1(@types/node@22.13.9)(terser@5.39.0))
+        version: 4.3.4(vite@6.2.1(@types/node@22.13.10)(terser@5.39.0))
       eslint:
         specifier: ^9.22.0
         version: 9.22.0
@@ -86,8 +86,8 @@ importers:
         specifier: ^5.2.0
         version: 5.2.0(eslint@9.22.0)
       pnpm:
-        specifier: ^10.6.1
-        version: 10.6.1
+        specifier: ^10.6.2
+        version: 10.6.2
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -102,13 +102,13 @@ importers:
         version: 8.26.0(eslint@9.22.0)(typescript@5.8.2)
       vite:
         specifier: ^6.2.1
-        version: 6.2.1(@types/node@22.13.9)(terser@5.39.0)
+        version: 6.2.1(@types/node@22.13.10)(terser@5.39.0)
       vite-pages-theme-doc:
         specifier: ^5.0.0
         version: 5.0.0
       vite-plugin-react-pages:
         specifier: ^5.0.0
-        version: 5.0.0(@types/react@19.0.10)(acorn@8.14.1)(react@19.0.0)(rollup@4.35.0)(vite@6.2.1(@types/node@22.13.9)(terser@5.39.0))
+        version: 5.0.0(@types/react@19.0.10)(acorn@8.14.1)(react@19.0.0)(rollup@4.35.0)(vite@6.2.1(@types/node@22.13.10)(terser@5.39.0))
 
 packages:
 
@@ -661,8 +661,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@22.13.9':
-    resolution: {integrity: sha512-acBjXdRJ3A6Pb3tqnw9HZmyR3Fiol3aGxRCK1x3d+6CDAMjl7I649wpSd+yNURCjbOUGu9tqtLKnTGxmK6CyGw==}
+  '@types/node@22.13.10':
+    resolution: {integrity: sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==}
 
   '@types/react@19.0.10':
     resolution: {integrity: sha512-JuRQ9KXLEjaUNjTWpzuR231Z2WpIwczOkBEIvbHNCzQefFIT0L8IqE6NV6ULLyC1SI/i234JnDoMkfg+RjQj2g==}
@@ -890,8 +890,8 @@ packages:
     resolution: {integrity: sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==}
     engines: {node: '>=14.16'}
 
-  caniuse-lite@1.0.30001702:
-    resolution: {integrity: sha512-LoPe/D7zioC0REI5W73PeR1e1MLCipRGq/VkovJnd6Df+QVqT+vT33OXCp8QUd7kA7RZrHWxb1B36OQKI/0gOA==}
+  caniuse-lite@1.0.30001703:
+    resolution: {integrity: sha512-kRlAGTRWgPsOj7oARC9m1okJEXdL/8fekFVcxA8Hl7GH4r/sN4OJn/i6Flde373T50KS7Y37oFbMwlE8+F42kQ==}
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -2145,8 +2145,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pnpm@10.6.1:
-    resolution: {integrity: sha512-QO4Jr0B/qfu1+/uOHLQPu3TArww+EOkiTXtTx2WFKGFbLJJFDnTPrZHjotyv485AUNgL2nHXV3VtLOK2YhPpow==}
+  pnpm@10.6.2:
+    resolution: {integrity: sha512-R4cHFr6hVytT3zSthke0KWK8eQziv0Viug9kMjfXMCo9ao7O+eS9/AHSOvGWmqkEhdTOuwuWOPpe8drvZW9sGw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2705,8 +2705,8 @@ packages:
     resolution: {integrity: sha512-K4jVyjnBdgvc86Y6BkaLZEN933SwYOuBFkdmBu9ZfkcAbdVbpITnDmjvZ/aQjRXQrv5EPkTnD1s39GiiqbngCw==}
     engines: {node: '>= 0.4'}
 
-  which-typed-array@1.1.18:
-    resolution: {integrity: sha512-qEcY+KJYlWyLH9vNbsr6/5j59AXk5ni5aakf8ldzBvGde6Iz4sxZGkJyWSAueTG7QhOvNRYb1lDdFmL5Td0QKA==}
+  which-typed-array@1.1.19:
+    resolution: {integrity: sha512-rEvr90Bck4WZt9HHFC4DJMsjvu7x+r6bImz0/BrbWb7A2djJ8hnZMrWnHo9F8ssv0OMErasDhftrfROTyqSDrw==}
     engines: {node: '>= 0.4'}
 
   which@2.0.2:
@@ -3276,7 +3276,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@22.13.9':
+  '@types/node@22.13.10':
     dependencies:
       undici-types: 6.20.0
 
@@ -3367,14 +3367,14 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@vitejs/plugin-react@4.3.4(vite@6.2.1(@types/node@22.13.9)(terser@5.39.0))':
+  '@vitejs/plugin-react@4.3.4(vite@6.2.1(@types/node@22.13.10)(terser@5.39.0))':
     dependencies:
       '@babel/core': 7.26.9
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.9)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.9)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 6.2.1(@types/node@22.13.9)(terser@5.39.0)
+      vite: 6.2.1(@types/node@22.13.10)(terser@5.39.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3538,7 +3538,7 @@ snapshots:
 
   browserslist@4.24.4:
     dependencies:
-      caniuse-lite: 1.0.30001702
+      caniuse-lite: 1.0.30001703
       electron-to-chromium: 1.5.113
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
@@ -3573,7 +3573,7 @@ snapshots:
 
   camelcase@7.0.1: {}
 
-  caniuse-lite@1.0.30001702: {}
+  caniuse-lite@1.0.30001703: {}
 
   ccount@2.0.1: {}
 
@@ -3808,7 +3808,7 @@ snapshots:
       typed-array-byte-offset: 1.0.4
       typed-array-length: 1.0.7
       unbox-primitive: 1.1.0
-      which-typed-array: 1.1.18
+      which-typed-array: 1.1.19
 
   es-define-property@1.0.1: {}
 
@@ -4518,7 +4518,7 @@ snapshots:
 
   is-typed-array@1.1.15:
     dependencies:
-      which-typed-array: 1.1.18
+      which-typed-array: 1.1.19
 
   is-weakmap@2.0.2: {}
 
@@ -5276,7 +5276,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pnpm@10.6.1: {}
+  pnpm@10.6.2: {}
 
   possible-typed-array-names@1.1.0: {}
 
@@ -5944,7 +5944,7 @@ snapshots:
 
   vite-pages-theme-doc@5.0.0: {}
 
-  vite-plugin-react-pages@5.0.0(@types/react@19.0.10)(acorn@8.14.1)(react@19.0.0)(rollup@4.35.0)(vite@6.2.1(@types/node@22.13.9)(terser@5.39.0)):
+  vite-plugin-react-pages@5.0.0(@types/react@19.0.10)(acorn@8.14.1)(react@19.0.0)(rollup@4.35.0)(vite@6.2.1(@types/node@22.13.10)(terser@5.39.0)):
     dependencies:
       '@mdx-js/rollup': 3.1.0(acorn@8.14.1)(rollup@4.35.0)
       chalk: 4.1.2
@@ -5970,7 +5970,7 @@ snapshots:
       ts-morph: 21.0.1
       typescript: 5.8.2
       unist-util-visit: 5.0.0
-      vite: 6.2.1(@types/node@22.13.9)(terser@5.39.0)
+      vite: 6.2.1(@types/node@22.13.10)(terser@5.39.0)
     transitivePeerDependencies:
       - '@types/react'
       - acorn
@@ -5978,13 +5978,13 @@ snapshots:
       - rollup
       - supports-color
 
-  vite@6.2.1(@types/node@22.13.9)(terser@5.39.0):
+  vite@6.2.1(@types/node@22.13.10)(terser@5.39.0):
     dependencies:
       esbuild: 0.24.0
       postcss: 8.5.3
       rollup: 4.35.0
     optionalDependencies:
-      '@types/node': 22.13.9
+      '@types/node': 22.13.10
       fsevents: 2.3.3
       terser: 5.39.0
 
@@ -6010,7 +6010,7 @@ snapshots:
       isarray: 2.0.5
       which-boxed-primitive: 1.1.1
       which-collection: 1.0.2
-      which-typed-array: 1.1.18
+      which-typed-array: 1.1.19
 
   which-collection@1.0.2:
     dependencies:
@@ -6019,12 +6019,13 @@ snapshots:
       is-weakmap: 2.0.2
       is-weakset: 2.0.4
 
-  which-typed-array@1.1.18:
+  which-typed-array@1.1.19:
     dependencies:
       available-typed-arrays: 1.0.7
       call-bind: 1.0.8
       call-bound: 1.0.4
       for-each: 0.3.5
+      get-proto: 1.0.1
       gopd: 1.2.0
       has-tostringtag: 1.0.2
 
