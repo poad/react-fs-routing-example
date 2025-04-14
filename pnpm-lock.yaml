@@ -86,8 +86,8 @@ importers:
         specifier: ^5.2.0
         version: 5.2.0(eslint@9.24.0)
       pnpm:
-        specifier: ^10.8.0
-        version: 10.8.0
+        specifier: ^10.8.1
+        version: 10.8.1
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -2242,8 +2242,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pnpm@10.8.0:
-    resolution: {integrity: sha512-DoJxTRtbQ8dGEBk8sgc0iXwdAN6J0OGEIK68WXf6E9eAqcsFc0Yk6B69gcyHbNRkeUhQZBxIuVRDJrViLKKZcQ==}
+  pnpm@10.8.1:
+    resolution: {integrity: sha512-xQCIupmMZ7jKjJnfil4C/Sri4rKaryOP6qnhJCSNP0j5+22yQklJ/5Ac/7teDwzBrWrttgLNKUUHUdEcNQI2dw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -5454,7 +5454,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pnpm@10.8.0: {}
+  pnpm@10.8.1: {}
 
   possible-typed-array-names@1.1.0: {}
 

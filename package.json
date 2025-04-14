@@ -40,7 +40,7 @@
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
-    "pnpm": "^10.8.0",
+    "pnpm": "^10.8.1",
     "rimraf": "^6.0.1",
     "serve": "^14.2.4",
     "typescript": "^5.8.3",
@@ -58,5 +58,5 @@
       "@esbuild/darwin-arm64": "0.24.0"
     }
   },
-  "packageManager": "pnpm@10.8.0"
+  "packageManager": "pnpm@10.8.1"
 }
